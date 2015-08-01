@@ -1,0 +1,28 @@
+@charset "euc-kr";
+
+html{
+		overflow-y:scroll;
+		overflow-x:hidden;
+}
+
+body
+{font-family:"NanumGothic Regular";
+font-size:17px;}
+
+form {
+	display :inline; 
+	margin:0;
+	border:0;
+	padding:0;
+	margin:0
+}
+table          {border-collapse:collapse;}
+img            {border:0px}
+caption, .hide {display:none}
+input, img, select, label, span, a {vertical-align:middle}
+
+
+a:link          {text-decoration:none;}
+a:active        {text-decoration:none;}
+a:visited       {text-decoration:none;}
+a:hover	        {text-decoration:underline;}
