@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
    <head>
-      <title>D Clear Alinger 주문공간</title>
+      <title>D Clear Alinger 오시는 길</title>
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <meta http-equiv = "X-UA-Compatible" content = "IE=edge,chrome=1" />
       <link rel="stylesheet" type="text/css" href="css/reset.css"/>
@@ -32,8 +32,17 @@
            if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
          }
       </script>
+   <style>
+    .map {
+      width:900px; 
+      height:614px;  
+      margin-top:80px;position:relative; 
+      overflow:hidden;
+    }    
+   </style>
+   
    </head>
-   <body onload="MM_preloadImages('img/btn_up_product.png')" >
+   <body onload="MM_preloadImages('img/btn_up_introduce.png')" >
       <div id="container">
          <div id="header">
             <div  class="header_box">
@@ -54,16 +63,25 @@
                      <h2>투명하고 밝은미소<strong>DIC Clear Aligner</strong></h2>
                   </div>
                   <ul class="tab">
-                     <li><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('05','','img/btn_up_order.png',1)"><img src="img/btn_dn_order.png" width="99" height="78" id="05" /></a></li>
+                     <li><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image123','','img/btn_up_introduce.png',1)"><img src="img/btn_dn_introduce.png" width="99" height="78" id="Image123" /></a></li>
+                     <li><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image123','','img/btn_up_introduce.png',1)"><img src="img/btn_dn_introduce.png" width="99" height="78" id="Image123" /></a></li>
                   </ul>
                </div>
             </div>
          </div>
          <div id="bottomcontbox">
-            <div class="order">
-               <h2><span>DIC Clear Aligner </span><br>주문공간</h2>
-               <p class="line2"></p>
-               <iframe src="https://docs.google.com/forms/d/1nr4sGXuWlzh97lmQDVnm4mJhh4L_QjUHvRlBsOKFxQ4/viewform?embedded=true" width="800" height="2100" frameborder="0" scrolling="no" seamless marginheight="0" marginwidth="0">로드 중...</iframe>
+            <div class="introduce">
+              <h2><span>DIC Clear Aligner </span><br>오시는 길</h2>
+              <p class="line2"></p>
+              <iframe class="map" src="http://dna.daum.net/include/tools/routemap/map_view.php?width=800&height=550&latitude=37.133911317671775&longitude=127.07328316041182&contents=%EC%98%A4%EC%82%B0%EC%8B%9C+%EC%9B%90%EB%8F%99+494-2%EB%B2%88%EC%A7%80+%EC%A0%84%EA%B4%80+3%EC%B8%B5%3Cbr+%2F%3E%0D%0ADIC+%EA%B8%B0%EA%B3%B5%EC%86%8C&zoom=5" scrolling="no" frameborder="0"></iframe>
+              <div class="contents_box">
+                <table>
+                <tr> <td> 주소 </td> <td> 오산시 원동 494-2번지 전관 3층 DIC 기공소 </td> </tr>
+                <tr> <td> 전화번호 </td> <td> 031)902-8500 </td> </tr>
+                <tr> <td> 영업시간 </td> <td> 09:00 ~ 18:00 (월-금) </td> </tr>
+                <tr> <td> </td> <td> 13:00 ~ 14:00 (점심) </td> </tr>
+                </table>  
+              </div>
             </div>
          </div>
       </div>
