@@ -377,7 +377,9 @@ font-size:28px;}
 
 #bottomcontbox > .introduce > .bottom_img > p.line2 {bottom:165px;margin-top:10px; margin-bottom:80px;  margin: 0 auto; width:380px; border:2px solid #fff;}
 
-#bottomcontbox > .introduce >  .contents_box{margin-bottom:50px;}
+#bottomcontbox > .introduce >  .contents_box{margin-top:30px;margin-bottom:50px;float:right}
+
+#bottomcontbox > .introduce >  .contents_box > table > tbody > tr > td {padding-left:5px;padding-right:5px}
 
 #bottomcontbox > .introduce >  .contents_box > p {width:870px; margin:0 auto; margin-top:40px; text-align:right; font-family:"notokr regular"; font-size:18px; color:#383838;  line-height:1.7em;}
 
