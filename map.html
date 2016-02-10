@@ -69,11 +69,11 @@
             <div class="introduce">
               <h2><span>DIC Clear Aligner </span><br>오시는 길</h2>
               <p class="line2"></p>
-              <iframe class="map" src="http://dna.daum.net/include/tools/routemap/map_view.php?width=800&height=550&latitude=37.133911317671775&longitude=127.07328316041182&contents=%EC%98%A4%EC%82%B0%EC%8B%9C+%EC%9B%90%EB%8F%99+494-2%EB%B2%88%EC%A7%80+%EC%A0%84%EA%B4%80+3%EC%B8%B5%3Cbr+%2F%3E%0D%0ADIC+%EA%B8%B0%EA%B3%B5%EC%86%8C&zoom=5" scrolling="no" frameborder="0"></iframe>
+              <div id="daumRoughmapContainer1455091785807" class="root_daum_roughmap root_daum_roughmap_landing" style="padding:30px"></div>
               <div class="contents_box">
                 <table>
-                <tr> <td><b>주소</b></td> <td>오산시 원동 494-2번지 전관 3층 DIC 기공소</td></tr>
-                <tr> <td><b>전화번호</b></td> <td> 031)902-8500</td></tr>
+                <tr> <td><b>주소</b></td> <td>경기도 고양시 일산동구 고봉로 32-19 남정씨티프라자 705호</td></tr>
+                <tr> <td><b>전화번호</b></td> <td> 031)915-6600</td></tr>
                 <tr> <td><b>영업시간</b></td> <td> 09:00 ~ 18:00 (월-금)</td></tr>
                 <tr> <td></td> <td>13:00 ~ 14:00 (점심)</td></tr>
                 </table>  
@@ -88,12 +88,22 @@
          </div>
       </div>
 
+   <script charset="UTF-8" class="daum_roughmap_loader_script" src="http://dmaps.daum.net/map_js_init/roughmapLoader.js"></script>
+   
    <script src="./js/commonDicBuilder.js?v=1" charset="UTF-8"> </script>
    
    <script>
     $(document).ready(function(){
         commonDicBuilder.menu.build();
         commonDicBuilder.footer.build();
+        
+			new daum.roughmap.Lander({
+				"timestamp" : "1455091785807",
+				"key" : "8j25",
+				"mapWidth" : "900",
+				"mapHeight" : "500"
+			}).render();
+
     });
    </script>
    </body>
